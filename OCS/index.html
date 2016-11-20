@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="login">
+<head>
+	<title>Online Clinic System</title>
+
+	<!-- including angular files -->
+	<script type="text/javascript" src="js/lib/angular.js"></script>     				<!-- 1.5.5v -->
+	<script type="text/javascript" src="js/lib/angular-route.js"></script>   			<!-- 1.5.5v -->
+	<script type="text/javascript" src="js/lib/jquery.js"></script>						<!-- 3.1.1v -->
+	<script type="text/javascript" src="js/lib/bootstrap.js"></script>					<!-- 3.3.7v -->
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<ng-include src="'content/bootstrap.html'"></ng-include>
+
+
+</head>
+<body>
+	<div class="well">It is there </div>
+	<div class="container">
+		<div class="row" ng-view>
+			
+		</div> <!-- row is ending here -->
+
+	</div> <!-- container is ending here -->
+
+</body>
+</html>
