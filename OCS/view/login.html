@@ -1,0 +1,46 @@
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel-group">
+					<div class="panel panel-primary">
+
+						<!-- panel starting for form -->
+						<div class="panel-heading">
+							<strong class="lead">Login</strong>
+						</div>
+						<div class="panel-body">
+							
+							<div class="bs-example">
+								<form class="form-horizontal" name="loginForm" novalidate>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user" placeholder="Username" ng-model="user"ng-required="true">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" id="inputPassword3" name="pass" ng-model="passs" placeholder="Password" ng-required="true">
+									</div>
+									<div class="form-group">
+
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Remember me
+											</label>
+										</div>
+										
+									</div>
+
+									<div class="form-group">
+										<input type="submit" class="btn btn-primary" value="Login" name="login" ng-disabled="loginForm.$invalid">
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="panel-footer">
+							<a href="#" >Click here to reset password</a><span> Forgot Password</span><br>
+							<a href="#/register" >New User</a><span> Register User</span>
+						</div>
+
+
+					</div>
+				</div> <!-- panel group is ending here -->
+
+			</div> <!-- col-md-6 col-md-offset-3  is ending here -->
+
+		
